@@ -95,7 +95,7 @@ body {
 }
 
 #languages li a {
-    text-decoration: none;   
+    text-decoration: none; 
 }
 #languages li a:hover {
     color: #B71C1C;
