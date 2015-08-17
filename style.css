@@ -1,0 +1,103 @@
+
+#header {
+    background-color: #F44336;
+    height: 100px;
+    width: 100%;
+    margin-top: 0px;
+    box-shadow: 0px 2px 10px black;
+    z-index: 10;
+}
+
+#header p {
+    color: white;
+    font-family: Courier;
+    text-align: left;
+    padding: 24px 0px 0px 10px;
+    font-size: 32px;
+}
+
+#sidebar {
+    background-color: #E57373;
+    width: 125px;
+    height: 400px;
+}
+
+#nav {
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none; 
+}
+
+#nav li {
+    display: inline;
+    padding: 5px;
+    margin: 0px 0px 0px 0px;
+}
+
+#nav li:hover {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+}
+
+#nav li a {
+    text-decoration: none;   
+    color: white;
+}
+
+#content-container {
+    margin: 30px 125px 0px 125px;
+    height: 600px;
+}
+
+#current-page {
+     border-bottom: 3px solid white;
+}
+
+@-webkit-keyframes fade {
+    from {background-color: #F44336;}
+    to {background-color: #B71C1C;}
+}
+
+h3 {
+    color: #F44336;  
+}
+
+#content-container p {
+    color: #F44336;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #FFEBEE
+}
+
+#hobbies {
+    list-style-type: square;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #F44336;
+}
+
+#languages {
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #F44336;
+}
+
+#languages li {
+    display: inline;  
+    margin: 0px 5px 0px 0px;
+}
+
+#languages li a {
+    text-decoration: none;   
+}
+#languages li a:hover {
+    color: #B71C1C;
+    text-decoration: underline;
+}
